@@ -1,0 +1,22 @@
+name: TrainCartsDiagram
+version: '${version}'
+main: work.art1st.traincartsdiagram.TrainCartsDiagram
+api-version: '1.18'
+depend: [BKCommonLib, Train_Carts]
+
+commands:
+  tcdiagram:
+    description: "Diagram plugin for TrainCarts"
+    usage: /tcdiagram <reload|stop>
+    permission: "tcdiagram.command"
+    permission-message: "No permission"
+  testrun:
+    description: "Testrun for TrainCarts"
+    usage: /testrun [station list]
+    permission: "tcdiagram.command"
+    permission-message: "No permission"
+  tcdisplay:
+    description: "Train display debug tool"
+    usage: /tcdisplay <train> <display-name> <label>
+    permission: "tcdiagram.command"
+    permission-message: "No permission"
